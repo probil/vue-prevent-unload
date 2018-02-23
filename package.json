@@ -1,0 +1,25 @@
+{
+  "name": "vue-prevent-unload",
+  "version": "0.0.1",
+  "description": "Vue component that conditionaly prevents page leave/reload",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/probil/vue-prevent-unload.git"
+  },
+  "keywords": [
+    "vue",
+    "beforeunload",
+    "page leave",
+    "page reload"
+  ],
+  "author": "Max Lyashuk <m_lyashuk@ukr.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/probil/vue-prevent-unload/issues"
+  },
+  "homepage": "https://github.com/probil/vue-prevent-unload#readme"
+}
