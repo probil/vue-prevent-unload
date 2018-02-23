@@ -4,7 +4,8 @@
   "description": "Vue component that conditionaly prevents page leave/reload",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:note": "node scripts/gen-release-note.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/probil/vue-prevent-unload/issues"
   },
-  "homepage": "https://github.com/probil/vue-prevent-unload#readme"
+  "homepage": "https://github.com/probil/vue-prevent-unload#readme",
+  "devDependencies": {
+    "conventional-changelog": "^1.1.16"
+  }
 }
