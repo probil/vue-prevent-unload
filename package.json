@@ -2,9 +2,11 @@
   "name": "vue-prevent-unload",
   "version": "0.0.1",
   "description": "Vue component that conditionaly prevents page leave/reload",
-  "main": "src/index.js",
+  "main": "dist/vue-prevent-unload.min.js",
+  "module": "dist/vue-prevent-unload.esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c scripts/rollup-build.js",
     "release": "bash scripts/release.sh",
     "release:note": "node scripts/gen-release-note.js"
   },
@@ -25,6 +27,13 @@
   },
   "homepage": "https://github.com/probil/vue-prevent-unload#readme",
   "devDependencies": {
-    "conventional-changelog": "^1.1.16"
+    "babel-core": "6.26.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.6.1",
+    "conventional-changelog": "1.1.16",
+    "rollup": "0.56.2",
+    "rollup-plugin-babel": "3.0.3",
+    "rollup-plugin-node-resolve": "3.0.3",
+    "rollup-plugin-uglify": "^3.0.0"
   }
 }

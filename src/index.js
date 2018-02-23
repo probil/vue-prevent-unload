@@ -1,1 +1,2 @@
-export * from './PreventUnload'
+import PreventUnload from './PreventUnload'
+export default PreventUnload;
