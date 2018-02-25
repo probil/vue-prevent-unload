@@ -10,6 +10,9 @@
     "release": "bash scripts/release.sh",
     "release:note": "node scripts/gen-release-note.js"
   },
+  "files": [
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/probil/vue-prevent-unload.git"
