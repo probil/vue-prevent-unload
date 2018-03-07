@@ -1,6 +1,6 @@
 {
   "name": "vue-prevent-unload",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Vue component that conditionaly prevents page leave/reload",
   "main": "dist/vue-prevent-unload.min.js",
   "module": "dist/vue-prevent-unload.esm.js",
