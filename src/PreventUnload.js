@@ -4,18 +4,16 @@ export default {
   render: () => null,
   props: {
     when: Boolean,
-    message: String,
+    message: {
+      type: String,
+      default: 'Changes you made may not be saved.'
+    },
   },
   methods: {
     handleUnload(event) {
       if (!this.when) return;
-      if (typeof this.message === 'string') {
-        event.returnValue = this.message;
-        return this.message;
-      }
-      if (!this.message) {
-        event.preventDefault();
-      }
+      event.returnValue = this.message;
+      return this.message;
     },
   },
   mounted() {
