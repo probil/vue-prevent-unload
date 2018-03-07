@@ -17,7 +17,7 @@ export default {
     {
       format: 'umd',
       name: 'VuePreventUnload',
-      exports: 'named',
+      exports: 'default',
       file: 'dist/vue-prevent-unload.min.js',
     },
   ]
