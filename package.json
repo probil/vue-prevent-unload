@@ -34,7 +34,7 @@
     "babel-plugin-transform-runtime": "6.23.0",
     "babel-preset-env": "1.6.1",
     "conventional-changelog": "1.1.16",
-    "rollup": "0.56.2",
+    "rollup": "3.29.5",
     "rollup-plugin-babel": "3.0.3",
     "rollup-plugin-node-resolve": "3.0.3",
     "rollup-plugin-uglify": "^3.0.0"
